@@ -1,0 +1,19 @@
+.advantages {
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.text {
+    color: #fff;
+    margin-bottom: 100px;
+    font-size: 48px;
+}
+
+.reasons > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+
+

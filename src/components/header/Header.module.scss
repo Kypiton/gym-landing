@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+
+.nav > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navlist {
+  margin-right: 75px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.gym {
+    color: #fff;
+}
+
+.g24 {
+    color: yellow;
+}
