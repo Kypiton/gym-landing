@@ -1,0 +1,63 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 118px;
+    height: 100vh;
+    margin-top: 250px;
+    color: #FFF;
+    font-family: 'MADE Outer Sans';
+    align-items: center;
+}
+
+.text {
+    font-size: 48px;
+}
+
+.description {
+    font-size: 14px;
+    margin-top: 30px;
+    max-width: 400px;
+}
+
+.image {
+    width: 460px;
+}
+
+.slides {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.slidersBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slidersBtn > img {
+    margin: 8px 8px 0 0;
+    cursor: pointer;
+}
+
+.arrows {
+    display: flex;
+    justify-content: center;
+}
+
+.arrows > img {
+    cursor: pointer;
+}
+
+.slides > img {
+    cursor: pointer;
+}
+
+.swiperImg {
+    width: 460px;
+}
+
+.swiper-button-prev {
+    background: url('../../../public/assets/images/arrow1.svg');
+}

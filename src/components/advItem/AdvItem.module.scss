@@ -1,17 +1,28 @@
 .maintext {
     color: #fff;
+    font-family: 'MADE Outer Sans';
+    font-size: 18px;
 }
 
 .description {
     color: #fff;
+    font-family: 'MADE Outer Sans';
+    font-size: 14px;
 }
 
 .item {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 img {
     display: block;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }

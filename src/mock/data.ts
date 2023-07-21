@@ -1,4 +1,4 @@
-export const data = [
+export const reasons = [
     {
         'id': 1,
         'img': '/assets/images/icon1.svg',
@@ -24,3 +24,86 @@ export const data = [
         'description': 'The gym is open 24 hours a day, also works on all holidays and weekends'
     }
 ];
+
+export const membership = [
+    {
+        id: 1,
+        'header': "Pass ‘Trial’",
+        'dollars': 0,
+        'info': [
+            'Access to the gym from 8:00 to 14:00',
+            'The trainer on duty will introduce you to the gym'
+        ]
+    },
+    {
+        id: 2,
+        'header': "Pass ‘Easy Start’",
+        'dollars': 119,
+        'info': [
+            'Visit without restrictions 24/7',
+            'Individual training program',
+            'Access to the VTRAINER application',
+            'Trainer support'
+        ]
+    },
+    {
+        id: 3,
+        'header': "Pass ‘Free Time’",
+        'dollars': 49,
+        'info': [
+            'The entrance time to the gym is from 14:00 to 16:00',
+            'Without suspension of gym membership',
+            'The trainer on duty will introduce you to the gym',
+        ]
+    },
+    {
+        id: 4,
+        'header': "Pass ‘1 Month 24/7’",
+        'dollars': 85,
+        'info': [
+            'Visit without restrictions 24/7',
+            'The trainer on duty will introduce you to the gym'
+        ]
+    },
+    {
+        id: 5,
+        'header': "Pass ‘In Shape (AM)’",
+        'dollars': 165,
+        'info': [
+            'Training in mini-groups until 14:00',
+            'Without suspension of gym membership',
+            'Classes with a trainer in a mini-group 3 times a week',
+            'Trainer support'
+        ]
+    },
+    {
+        id: 6,
+        'header': "Pass ‘In Shape (PM)’",
+        'dollars': 195,
+        'info': [
+            'Training in mini-groups until 14:00',
+            'Without suspension of gym membership',
+            'Classes with a trainer in a mini-group 3 times a week',
+            'Trainer support'
+        ]
+    }
+]
+
+export const aboutUsCarousel = [
+    {
+        id: 1,
+        image: '/assets/images/photo1.png'
+    },
+    {
+        id: 2,
+        image: '/assets/images/photo2.png'
+    },
+    {
+        id: 3,
+        image: '/assets/images/photo3.png'
+    },
+    {
+        id: 4,
+        image: '/assets/images/photo4.png'
+    },
+]

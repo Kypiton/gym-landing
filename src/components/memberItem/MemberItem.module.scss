@@ -1,0 +1,81 @@
+.card {
+    background-color: #222;
+    width: 275px;
+    border-radius: 10px;
+    padding-bottom: 38px;
+}
+
+.descr {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background-color: #222;
+    border-radius: 10px 10px 0 0;
+}
+
+.pass {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'MADE Outer Sans';
+    margin-bottom: 10px;
+}
+
+.dollas {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'MADE Outer Sans';
+}
+
+.line {
+    border-bottom: 1px solid #000;
+    margin-bottom: 27px;
+}
+
+.btn {
+    display: block;
+    border-radius: 30px;
+    background: #FAFF00;
+    padding: 6px 38px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'MADE Outer Sans';
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2px;
+    font-size: 14px;
+    font-family: 'MADE Outer Sans';
+    list-style-type: none;
+    gap: 5px;
+    margin-top: 5px;
+    padding: 0 12px 0 23px;
+    &::before {
+        content: url('../../../public/assets/images/check_done.svg');
+    }
+}
+
+.info > span {
+    margin-top: 1px;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 250px;
+}
+
+// .card:hover {
+//     border-radius: 10px;
+//     border: 2px solid #FAFF00;
+//     background: #222;
+//     cursor: pointer;
+
+//     &.descr:hover {
+//         background-color: #FAFF00;
+//         color: #000;
+//     }
+// }
