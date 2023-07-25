@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, RefObject, useRef } from 'react';
 import About from '../about/About';
 import Advantages from '../advantages/Advantages';
 import Footer from '../footer/Footer';

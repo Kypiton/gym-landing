@@ -11,7 +11,7 @@ import 'swiper/css/scrollbar';
 
 const About: FC = () => {
     return (
-        <section className={styles.about}>
+        <section className={styles.about} id='about'>
             <div className={styles.about__wrapper}>
                 <div className={styles.aboutUsText}>
                     <h2 className={styles.text}>About us</h2>

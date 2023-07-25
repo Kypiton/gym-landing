@@ -5,7 +5,7 @@ import { membership } from '../../mock/data';
 
 const Membership: FC = () => {
     return (
-        <section className={styles.membership}>
+        <section className={styles.membership} id='membership'>
             <h2 className={styles.text}>Gym membership</h2>
             <div className={styles.cards}>
                 {membership.map(item => {

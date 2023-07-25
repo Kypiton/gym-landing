@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import styles from './Footer.module.scss';
+import { icons } from '../../mock/data';
 
 const Footer: FC = () => {
     return (
@@ -33,18 +34,13 @@ const Footer: FC = () => {
                     </div>
                 </div>
                 <div className={styles.social__networks}>
-                    <div>
-                        <img src={process.env.PUBLIC_URL + '/assets/images/inst.svg'} alt="instagram_icon"/>
-                    </div>
-                    <div>
-                        <img src={process.env.PUBLIC_URL + '/assets/images/facebook.svg'} alt="facebook_icon"/>
-                    </div>
-                    <div>
-                        <img src={process.env.PUBLIC_URL + '/assets/images/twitter.svg'} alt="twitter_icon"/>
-                    </div>
-                    <div>
-                        <img src={process.env.PUBLIC_URL + '/assets/images/youtube.svg'} alt="youtube_icon"/>
-                    </div>
+                    {icons.map(icon => {
+                        return (
+                            <div key={icon}>
+                                <img src={icon} alt="instagram_icon"/>
+                            </div>
+                        )
+                    })}
                 </div>
             </div>
         </footer>

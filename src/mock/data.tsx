@@ -190,3 +190,10 @@ export const trainers = [
         ]
     },
 ]
+
+export const icons = [
+    '/assets/images/inst.svg',
+    '/assets/images/facebook.svg',
+    '/assets/images/twitter.svg',
+    '/assets/images/youtube.svg',
+]
