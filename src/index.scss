@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 html {
   background: url('../public/assets/images/background.svg') top center / contain no-repeat;
   // height: 100vh;
@@ -18,5 +22,47 @@ html {
 @font-face {
   font-family: 'Bruno Ace';
   src: url('./fonts/BrunoAceSC-Regular.ttf');
+}
+
+.swiper-pagination-bullet-active {
+  background: url('../public/assets/images/activeSliderBtn.svg') !important;
+  width: 40px !important;
+  height: 2px !important;
+  border-radius: 0 !important;
+}
+
+.swiper-pagination-bullet {
+  background: url('../public/assets/images/inactiveSliderBtn.svg') !important;
+  width: 40px !important;
+  height: 2px !important;
+  border-radius: 0 !important;
+}
+
+.swiper-pagination {
+  position: unset !important;
+  text-align: left !important;
+}
+
+.swiper-scrollbar {
+  position: relative !important;
+}
+
+.swiper-button-prev::after {
+  content: url('../public/assets/images/arrow1.svg') !important;
+}
+
+.swiper-button-next::after {
+  content: url('../public/assets/images/arrow2.svg') !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  position: unset !important;
+  height: 0 !important;
+}
+
+.flexButtons {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: right !important;
 }
 

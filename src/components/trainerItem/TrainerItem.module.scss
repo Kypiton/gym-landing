@@ -1,0 +1,23 @@
+.trainerCard {
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #222;
+    padding: 22px 18px 29px 19px;
+    width: 25%;
+    flex: 1 0 21%;
+}
+
+.trainer__name {
+    font-size: 18px;
+    margin-top: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.social__networks {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}

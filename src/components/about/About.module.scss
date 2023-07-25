@@ -1,12 +1,16 @@
 .about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 118px;
     height: 100vh;
     margin-top: 250px;
     color: #FFF;
     font-family: 'MADE Outer Sans';
     align-items: center;
+}
+
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 118px;
 }
 
 .text {
@@ -16,7 +20,7 @@
 .description {
     font-size: 14px;
     margin-top: 30px;
-    max-width: 400px;
+    max-width: 100%;
 }
 
 .image {
@@ -61,3 +65,4 @@
 .swiper-button-prev {
     background: url('../../../public/assets/images/arrow1.svg');
 }
+

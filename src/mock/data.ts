@@ -107,3 +107,86 @@ export const aboutUsCarousel = [
         image: '/assets/images/photo4.png'
     },
 ]
+
+export const trainers = [
+    {
+        id: 1,
+        image: '/assets/images/trainer1.png',
+        name: 'Victoria Shurpik',
+        icons: [
+            '/assets/images/inst.svg',
+            '/assets/images/twitter.svg',
+            '/assets/images/youtube.svg'
+        ]
+    },
+    {
+        id: 2,
+        image: '/assets/images/trainer2.png',
+        name: 'Elizabeth Lavrinenko',
+        icons: [
+            '/assets/images/inst.svg',
+            '/assets/images/twitter.svg',
+            '/assets/images/youtube.svg'
+        ]
+    },
+    {
+        id: 3,
+        image: '/assets/images/trainer3.png',
+        name: 'Ivan Gladkikh',
+        icons: [
+            '/assets/images/inst.svg',
+            '/assets/images/twitter.svg',
+            '/assets/images/youtube.svg'
+        ]
+    },
+    {
+        id: 4,
+        image: '/assets/images/trainer4.png',
+        name: 'Lyudmila Sabilo',
+        icons: [
+            '/assets/images/inst.svg',
+            '/assets/images/twitter.svg',
+            '/assets/images/youtube.svg'
+        ]
+    },
+    {
+        id: 5,
+        image: '/assets/images/trainer5.png',
+        name: 'Evgeny Gurkov',
+        icons: [
+            '/assets/images/inst.svg',
+            '/assets/images/twitter.svg',
+            '/assets/images/youtube.svg'
+        ]
+    },
+    {
+        id: 6,
+        image: '/assets/images/trainer6.png',
+        name: 'Anatoly Prytytsky',
+        icons: [
+            '/assets/images/inst.svg',
+            '/assets/images/twitter.svg',
+            '/assets/images/youtube.svg'
+        ]
+    },
+    {
+        id: 7,
+        image: '/assets/images/trainer7.png',
+        name: 'Victor Ludkovich',
+        icons: [
+            '/assets/images/inst.svg',
+            '/assets/images/twitter.svg',
+            '/assets/images/youtube.svg'
+        ]
+    },
+    {
+        id: 8,
+        image: '/assets/images/trainer8.png',
+        name: 'Maria Masyak',
+        icons: [
+            '/assets/images/inst.svg',
+            '/assets/images/twitter.svg',
+            '/assets/images/youtube.svg'
+        ]
+    },
+]
