@@ -26,11 +26,11 @@ const Footer: FC = () => {
                 <div className={styles.contacts}>
                     <div className={styles.phone}>
                         <img src={process.env.PUBLIC_URL + '/assets/images/icon_call.svg'} alt="call"/>
-                        <a href="tel:+375(44)-777-24-12">+375(44)-777-24-12</a>
+                        <a className={styles.footer__contacts} href="tel:+375(44)-777-24-12">+375(44)-777-24-12</a>
                     </div>
                     <div className={styles.email}>
                         <img src={process.env.PUBLIC_URL + '/assets/images/icon_email.svg'} alt="call"/>
-                        <a href="mailto:gym24@gmail.com">gym24@gmail.com</a>
+                        <a className={styles.footer__contacts} href="mailto:gym24@gmail.com">gym24@gmail.com</a>
                     </div>
                 </div>
                 <div className={styles.social__networks}>

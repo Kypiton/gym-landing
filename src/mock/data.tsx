@@ -197,3 +197,10 @@ export const icons = [
     '/assets/images/twitter.svg',
     '/assets/images/youtube.svg',
 ]
+
+export const navNames = [
+    'Advantages',
+    'Membership',
+    'About',
+    'Trainers'
+]

@@ -5,7 +5,7 @@ import TrainerItem from '../trainerItem/TrainerItem';
 
 const Trainer: FC = () => {
     return (
-        <section className={styles.trainer} id='trainer'>
+        <section className={styles.trainer} id='Trainers'>
             <h2 className={styles.text}>Trainers staff</h2>
             <div className={styles.cards}>
                 {trainers.map(trainer => {

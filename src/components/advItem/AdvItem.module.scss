@@ -1,3 +1,5 @@
+@use '/src/styles/mixins';
+
 .maintext {
     color: #fff;
     font-family: 'MADE Outer Sans';
@@ -11,9 +13,7 @@
 }
 
 .item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include mixins.flex;
     gap: 30px;
 }
 

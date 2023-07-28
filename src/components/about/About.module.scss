@@ -1,3 +1,5 @@
+@use '/src/styles/mixins';
+
 .about {
     margin-top: 250px;
     color: #FFF;
@@ -34,9 +36,7 @@
 }
 
 .slidersBtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include mixins.flex;
 }
 
 .slidersBtn > img {
@@ -63,5 +63,30 @@
 
 .swiper-button-prev {
     background: url('../../../public/assets/images/arrow1.svg');
+}
+
+.carousel__img {
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+    .carousel__img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 744px) {
+    .about__wrapper { 
+        flex-wrap: wrap;
+    }
+    .text {
+        text-align: center;
+    }
+    .description {
+      text-align: center;
+      padding: 0 115px;
+      margin-top: 90px;
+    }
 }
 

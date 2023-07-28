@@ -24,13 +24,14 @@
     font-size: 12px;
 }
 
-.navlist > a {
+.navlist {
     color: #fff;
     text-decoration: none;
     transition: all .5s ease;
+    cursor: pointer;
 }
 
-.navlist > a:hover {
+.navlist:hover {
     color: #FAFF00;
 }
 
@@ -40,4 +41,8 @@
 
 .g24 {
     color: yellow;
+}
+
+@media screen and (max-width: 1000px) {
+    
 }

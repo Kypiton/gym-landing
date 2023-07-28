@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import styles from './Header.module.scss';
 import smoothScroll from '../../tsFiles/scroll';
+import { navNames } from '../../mock/data';
 
 const Header: FC = () => {
     const handleSmoothScroll = (event: any, target: string) => {
@@ -15,10 +16,9 @@ const Header: FC = () => {
             </div>
             <nav className={styles.nav}>
                 <ul>
-                    <li className={styles.navlist}><a href="/#" onClick={(e) => handleSmoothScroll(e, '#advantage')}>Advantages</a></li>
-                    <li className={styles.navlist}><a href="/#" onClick={(e) => handleSmoothScroll(e, '#membership')}>Membership</a></li>
-                    <li className={styles.navlist}><a href="/#" onClick={(e) => handleSmoothScroll(e, '#about')}>About</a></li>
-                    <li className={styles.navlist}><a href="/#" onClick={(e) => handleSmoothScroll(e, '#trainer')}>Trainers</a></li>
+                    {navNames.map(navName => {
+                        return <li className={styles.navlist} onClick={(e) => handleSmoothScroll(e, `#${navName}`)}>{navName}</li>
+                    })}
                 </ul>
             </nav>
         </header>

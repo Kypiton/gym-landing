@@ -15,4 +15,20 @@
     gap: 68px;
 }
 
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+    .cards {
+        gap: 56px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 744px) {
+    .membership {
+        padding: 0 80px;
+    }
+    .cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 34px;
+    }
+}
+
 

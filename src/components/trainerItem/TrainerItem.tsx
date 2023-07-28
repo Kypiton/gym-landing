@@ -4,8 +4,8 @@ import { ITrainerType } from '../../types/trainerType';
 const TrainerItem = ({ icons, image, name }: ITrainerType): JSX.Element => {
     return (
         <div className={styles.trainerCard}>
-            <div className={styles.trainer__img}>
-                <img src={image} alt=""/>
+            <div>
+                <img src={image} alt="" className={styles.trainer__img}/>
             </div>
             <p className={styles.trainer__name}>{name}</p>
             <div className={styles.social__networks}>

@@ -1,6 +1,7 @@
 .advantages {
     margin: 0 auto;
     padding-bottom: 250px;
+    margin-top: 400px;
 }
 
 .text {
@@ -14,6 +15,27 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+    .text {
+      text-align: center;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 744px) {
+    .text {
+      text-align: center;
+    }
+
+    .reasons > ul {
+        grid-template-columns: 1fr;
+        justify-items: flex-start;
+    }
+
+    .reasons {
+        padding: 0 80px;
+    }
 }
 
 

@@ -6,7 +6,7 @@ import { reasons } from '../../mock/data';
 const Advantages: FC = () => {
     const advantages = useRef(null);
     return (
-        <section className={styles.advantages} id='advantage'>
+        <section className={styles.advantages} id='Advantages'>
             <h2 ref={advantages} className={styles.text}>Reasons to join</h2>
             <div className={styles.reasons}>
                 <ul>
