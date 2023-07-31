@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import styles from './About.module.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y, EffectFade } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y, EffectFade } from 'swiper';
 import { aboutUsCarousel } from '../../mock/data';
 
 import 'swiper/css';
