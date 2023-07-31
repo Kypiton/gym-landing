@@ -11,7 +11,33 @@
 }
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
     gap: 20px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+    .cards {
+        padding: 0 220px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 744px) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 744px) and (min-width: 280px) {
+    .cards {
+        display: flex;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .text {
+        text-align: center;
+        font-size: 28px;
+    }
 }

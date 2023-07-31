@@ -13,7 +13,7 @@ const Footer: FC = () => {
             </div>
             <div className={styles.footer__second}>
                 <p className={styles.topText}>Address</p>
-                <p>
+                <p className={styles.address_text}>
                 Republic of Belarus
                 <br/>
                 Minsk city

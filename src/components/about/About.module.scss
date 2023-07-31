@@ -90,3 +90,22 @@
     }
 }
 
+@media screen and (max-width: 744px) and (min-width: 280px) {
+    .about__wrapper { 
+        flex-wrap: wrap;
+    }
+
+    .text {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 14px;
+        text-align: center;
+        padding: 0 50px;
+        margin-top: 50px;
+    }
+
+}
+

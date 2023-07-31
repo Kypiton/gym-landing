@@ -26,3 +26,9 @@ img {
     flex-direction: column;
     gap: 12px;
 }
+
+@media screen and (max-width: 744px) and (min-width: 280px) {
+    .item {
+        gap: 10px;
+    }
+}

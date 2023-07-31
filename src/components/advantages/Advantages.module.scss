@@ -39,4 +39,19 @@
 }
 
 
+@media screen and (max-width: 744px) and (min-width: 280px) {
+    .text {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .reasons > ul {
+        grid-template-columns: 1fr;
+        justify-items: flex-start;
+        padding: 0 37px;
+    }
+
+}
+
+
 

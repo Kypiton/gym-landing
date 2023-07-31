@@ -14,6 +14,12 @@
     align-items: flex-start;
 }
 
+.footer__second {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .gymIcon {
     font-family: 'Bruno Ace';
     cursor: pointer;
@@ -31,25 +37,26 @@
 
 .topText {
   font-size: 18px;
+  font-weight: 700;
   margin-bottom: 30px;
 }
 
 .gymText {
     max-width: 300px;
+    font-size: 14px;
 }
 
-.phone {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
+.address_text {
+    font-size: 14px;  
 }
 
+.phone,
 .email {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
+    font-size: 14px;
 }
 
 .social__networks {
@@ -67,4 +74,32 @@
 
 .footer__contacts:hover {
     color: #FAFF00;
+}
+
+@media screen and (max-width: 800px) {
+    .footer__first {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 744px) and (min-width: 280px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .footer__second {
+        align-items: center;
+    }
+
+    .address_text {
+        margin-bottom: 47px;
+    }
+
+    .phone, .email {
+        justify-content: center;
+    }
+
 }

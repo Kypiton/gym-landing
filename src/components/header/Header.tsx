@@ -17,9 +17,13 @@ const Header: FC = () => {
             <nav className={styles.nav}>
                 <ul>
                     {navNames.map(navName => {
-                        return <li className={styles.navlist} onClick={(e) => handleSmoothScroll(e, `#${navName}`)}>{navName}</li>
+                        return <li 
+                            className={styles.navlist}
+                            onClick={(e) => handleSmoothScroll(e, `#${navName}`)}
+                            key={navName}>{navName}</li>
                     })}
                 </ul>
+                <i className={styles.burger}></i>
             </nav>
         </header>
     )

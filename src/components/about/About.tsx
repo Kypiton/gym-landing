@@ -36,21 +36,18 @@ const About: FC = () => {
                         clickable: true,
                     }}
                     breakpoints={{
-                        480: {
+                        280: {
                             slidesPerView: 1.5,
                             loop: true,
                             spaceBetween: 40,
                             centeredSlides: true
                         },
-                        1024: {
-                            slidesPerView: 2,
+                        1000: {
+                            slidesPerView: 1,
                             spaceBetween: 40,
                         },
                     }}
                     scrollbar={{ draggable: true }}
-                    effect={'fade'}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
                 >
                 {aboutUsCarousel.map(item => (
                     <SwiperSlide key={item.id}>

@@ -18,3 +18,16 @@
     font-family: 'MADE Outer Sans';
     font-size: 16px;
 }
+
+@media screen and (max-width: 744px) and (min-width: 280px) {
+    .text {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .btn {
+        display: block;
+        margin: 25px auto 0 auto;
+    }
+}
+

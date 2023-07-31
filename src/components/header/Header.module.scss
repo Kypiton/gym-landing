@@ -43,6 +43,21 @@
     color: yellow;
 }
 
-@media screen and (max-width: 1000px) {
+.burger {
+    display: none;
+    content: url('../../../public/assets/images/hamburger.svg');
+}
+
+@media screen and (max-width: 744px) and (min-width: 280px) {
+    .nav > ul {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
     
+    .navbar {
+        padding: 0 55px;
+    }
 }
