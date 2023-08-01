@@ -63,7 +63,6 @@ const About: FC = () => {
                     </button>
                 </div>
                 </Swiper>
-                
             </div>  
         </section>
     )
